@@ -9,18 +9,3 @@ return function (App $app) {
 
     $app->get('/',  'HomePageController');
 };
-
-//    $app->get('/', function ($request, $response, $args) use ($container) {
-//        $renderer = $container->get('renderer');
-//        $model = $container->get('ListingsModel');
-////        var_dump($model->getListings());
-//        $model = $container->get('StatusesModel');
-//        var_dump($model->getStatuses());
-//        return $renderer->render($response, "index.php", $args);
-//    });
-//
-//    $app->get('//', function ($request, $response, $args) use ($container) {
-//        $renderer = $container->get('renderer');
-//        return $renderer->render($response, "newStaticFile.php", $args);
-//    });
-//};

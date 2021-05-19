@@ -41,7 +41,6 @@ return function (ContainerBuilder $containerBuilder) {
 
     $container['ListingsModel'] = DI\factory('\App\Factories\ListingsModelFactory');
     $container['StatusesModel'] = DI\factory('\App\Factories\StatusesModelFactory');
-    // controller below won't need a model
     $container['HomePageController'] = DI\factory('\App\Factories\HomePageControllerFactory');
 
     $containerBuilder->addDefinitions($container);
